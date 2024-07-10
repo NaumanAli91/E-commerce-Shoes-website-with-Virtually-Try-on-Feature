@@ -1,0 +1,26 @@
+.scrolling-text-container {
+    font-family: 'Roboto', sans-serif !important;
+    width: 100%;
+    height: 25px; /* Change to auto for dynamic height */
+    overflow: hidden;
+  }
+  
+  .scrolling-text {
+    animation: scroll-left 35s linear infinite; /* Change duration to 35s */
+  }
+  
+  .scrolling-text-content {
+    color: black;
+    padding: 2px 0;
+    font-size: 14px; /* Adjust font size for mobile */
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

@@ -1,0 +1,41 @@
+/* carousel.module.css */
+
+.carousel-content {
+    position:absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .carousel-content h1 {
+ 
+    background-color: transparent !important;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 4rem; /* Adjust font size as needed */
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .carousel-image {
+    max-height: 700px; /* Adjust the value to your desired height */
+  }
+  
+  
+  .carousel-content h1 span {
+    color: white;
+  }
+  
+  .carousel-content .flex {
+  
+    justify-content: center;
+  }
+  @media only screen and (max-width: 768px) {
+    .carousel-content h1 {
+        font-size: 2em; /* Set font size to 2em on mobile devices */
+    }
+}

@@ -1,0 +1,21 @@
+.noproduct-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+  }
+  
+  .noproduct-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .noproduct-container p {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  

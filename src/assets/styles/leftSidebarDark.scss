@@ -1,0 +1,13 @@
+.leftsidebardark {
+  .LeftSidebarNav {
+    background-color: var(--cardBg);
+    box-shadow: none;
+
+    .black-logo {
+      display: none;
+    }
+    .white-logo {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .otp-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+.subText {
+    margin-top: 10px; 
+  }
+  .otp-input {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .verify-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #FEE715;
+    color: #101820;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,52 @@
+/* Footer.module.css */
+body {
+    font-family: var(--bodyFontFamily) !important;
+  }
+  
+  .textCenter {
+    background-color: #101820 !important;
+    color: #fff !important;
+  }
+  
+  /* Override text-muted color */
+  .text-muted {
+    color: #fff !important;
+  }
+  
+  /* Custom styles for textCenter and textLgStart */
+  .textCenter {
+    text-align: center !important;
+  }
+  
+  .textLgStart {
+    text-align: left ;
+  }
+  
+  .footerheading {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: left;
+    height: 40px;
+    max-width: 80%;
+    color: #101820;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #FEE715; /* Your desired background color */
+  }
+  .footerSectionItem{
+    text-align: left !important;
+  }
+  /* Media query for centering headings in a responsive view */
+  @media (max-width: 768px) {
+    .footerheading {
+        
+      justify-content: center !important;
+      text-align: center !important;
+    }
+  }
+  
+
+
+

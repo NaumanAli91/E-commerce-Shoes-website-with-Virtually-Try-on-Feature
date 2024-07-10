@@ -1,0 +1,54 @@
+/* index.module.css */
+
+.header {
+  display: flex;
+  justify-content: flex-end; /* Align items to the end (right) of the header */
+  align-items: center;
+  padding: 3px;
+  background-color: #fff;
+  height: 60px; /* Set a fixed height for the header */
+}
+.leftLinks {
+  display: flex;
+  align-items: center;
+  color: #101810 ;
+ text-decoration: none;
+ 
+  
+}
+.link{
+  color: #101810 ;
+}
+.leftLinks span {
+  
+  margin-right: 10px;
+}
+.searchIcon {
+  display: flex;
+  align-items: center;
+  color: #101810;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+.iconButton{
+  background-color: #fff !important;
+  border-style: none;
+
+}
+.icon {
+  color: #101810;
+  margin-left: 10px; /* Adjust the margin as needed */
+  margin-right: 20px;
+}
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .leftLinks {
+    display: none;
+  }
+
+ 
+}

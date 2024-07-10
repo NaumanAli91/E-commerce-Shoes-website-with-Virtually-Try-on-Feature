@@ -1,0 +1,244 @@
+.favicon {
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+  }
+  
+  /* googleBtn */
+  .googleBtn {
+    background: #FFFFFF;
+    border: 1px solid #EDEFF5;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    padding: 16px 25px 16px 55px;
+    color: #260944;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .6s;
+    -webkit-transition: .6s;
+    margin-right: 7px;
+    position: relative;
+  }
+  .googleBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .googleBtn img {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    margin-right: 5px;
+  }
+  
+  /* Facebook Btn */
+  .fbBtn {
+    background: #4776D0;
+    border: 1px solid #4776D0;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    padding: 16px 25px 16px 55px;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    transition: .6s;
+    -webkit-transition: .6s;
+    margin-left: 7px;
+    position: relative;
+  }
+  .fbBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .fbBtn img {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    margin-right: 5px;
+  }
+  
+  /* or */
+  .or {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    color: #777E90;
+    font-weight: 500;
+    z-index: 0;
+  }
+  .or:before {
+    content: "";
+    background: #E2E8F0;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 10px;
+    z-index: -1;
+  }
+  .or span {
+    background-color: #F5F5F5;
+    display: inline-block;
+    padding: 0 10px;
+  }
+  
+  /* Lock screen */
+  .profileBox {
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+  }
+  .header {
+    background: #EAEDFB;
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px 15px 50px;
+    position: relative;
+  }
+  .headerContent {
+    max-width: 300px;
+    position: relative;
+    z-index: 1;
+  }
+  .header h1 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #757FEF;
+    font-weight: 500;
+  }
+  .header p {
+    margin: 0;
+    font-size: 14px;
+    color: #757FEF;
+  }
+  .header img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .profileInfo {
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .profileInfo img {
+    width: 60px;
+    height: 60px;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .profileInfo h3 {
+    margin: 5px 0 0;
+    font-size: 14px; 
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .googleBtn {
+      padding: 13px 15px 13px 40px;
+      font-size: 12px;
+      margin-right: 5px;
+    }
+    .googleBtn img {
+      left: 15px;
+      top: 10px;
+    }
+    .fbBtn {
+      padding: 13px 15px 13px 40px;
+      font-size: 12px;
+      margin-left: 5px;
+    }
+    .fbBtn img {
+      left: 15px;
+      top: 10px;
+    }
+  }
+  
+  /* For RTL Style */
+  [dir="rtl"] .favicon {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  
+  /* googleBtn */
+  [dir="rtl"] .googleBtn {
+    margin-right: 0;
+    margin-left: 7px;
+    padding: 16px 55px 16px 25px;
+  }
+  [dir="rtl"] .googleBtn img {
+    left: auto;
+    right: 25px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  
+  /* Facebook Btn */
+  [dir="rtl"] .fbBtn {
+    margin-left: 0;
+    margin-right: 7px;
+    padding: 16px 55px 16px 25px;
+  }
+  [dir="rtl"] .fbBtn img {
+    left: auto;
+    right: 25px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  
+  /* or */
+  [dir="rtl"] .or:before {
+    left: auto;
+    right: 0;
+  }
+  
+  /* Lock screen */
+  [dir="rtl"] .header img {
+    right: auto;
+    left: 0;
+  }
+  
+  /* For dark mode */
+  [class="dark"] .or {
+    color: #fff;
+  }
+  [class="dark"] .or:before {
+    background: var(--borderColor);
+  }
+  [class="dark"] .or span {
+    background-color: #000;
+  }
+  
+  /* googleBtn */
+  [class="dark"] .googleBtn {
+    background: var(--colorBlack);
+    border: 1px solid var(--colorBlack);
+  }
+  
+  /* Lock screen */
+  [class="dark"] .header {
+    background: #101010;
+  }
+  
+  
+  @media only screen and (max-width: 767px) {
+    [dir="rtl"] .googleBtn {
+      margin-right: 0;
+      margin-left: 5px;
+    }
+    [dir="rtl"] .googleBtn img {
+      left: auto;
+      right: 15px;
+      top: 14px;
+    }
+    [dir="rtl"] .fbBtn {
+      margin-left: 0;
+      margin-right: 5px;
+    }
+    [dir="rtl"] .fbBtn img {
+      left: auto;
+      right: 15px;
+      top: 14px;
+    }
+  }

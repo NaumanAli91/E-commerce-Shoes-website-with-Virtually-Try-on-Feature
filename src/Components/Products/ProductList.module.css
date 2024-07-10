@@ -1,0 +1,88 @@
+/* ProductList.css */
+body {
+    font-family: var(--bodyFontFamily) !important;
+  overflow-x: hidden;
+  background-color: #fff !important;
+}
+
+
+  
+/* Product Grid */
+.ProductGrid {
+   
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: flex-start; /* Change from space-between to flex-start */
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+}
+/* Product Card */
+.ProductCard {
+    margin-left: 10px;
+    width: calc(33.3333% - 20px); /* Adjust the width as needed, minus margins */
+    margin-bottom: 20px; /* Adjust the margin between items as needed */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Product Image */
+.ProductImage {
+    
+    width: 100%;
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: contain; /* Ensure the entire image fits within the container */
+    object-position: center; 
+}
+
+/* Product Name */
+.ProductName {
+    color: #101810;
+}
+
+/* Product Price */
+.ProductPrice {
+    color: #ff6d00;
+}
+
+/* Product Shipping */
+.ProductShipping {
+    color: #808080;
+}
+
+/* Overall container styles */
+.ProductListContainer {
+    
+    margin-top: 5%;
+
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.Product_condition {
+    color: #808080;
+}
+
+.SortDropdownselect{
+    outline-style: none;
+    border-color: transparent;
+   
+    color: #101810 !important;
+    outline-color: #FEE715;
+    border-radius: 5px;
+    width: 10%;
+    height: 40px;
+}
+
+.SortDropdown {
+    margin-bottom: 20px; /* Add some spacing for better visibility on small screens */
+  }
+  
+@media only screen and (max-width: 720px) {
+    .SortDropdown {
+      width: 100%; /* Make the sort button take full width on small screens */
+    }
+  
+    .SortDropdownselect {
+      width: 25%; /* Make the select component take full width on small screens */
+    }
+  }

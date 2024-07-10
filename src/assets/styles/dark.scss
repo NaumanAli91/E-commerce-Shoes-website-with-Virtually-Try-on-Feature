@@ -1,0 +1,395 @@
+// Globals variables
+:root {
+  --darkBodyTextColor: #828690;
+  --darkHeadingTextColor: #ced4da;
+  --bodyBg: #0d1015;
+  --cardBg: #14171c;
+  --colorBlack: #000000;
+  --borderColor: #1f2226;
+  --whiteColor: #0d1015;
+}
+
+.dark {
+  background-color: var(--bodyBg) !important;
+  
+  body {
+    background-color: var(--bodyBg) !important;
+    color: var(--darkBodyTextColor) !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--darkHeadingTextColor) !important;
+  }
+ 
+  button, a, p, q, tspan, li, tbody, tfoot, thead, th, td, canvas, ::placeholder, abbr, address, blockquote, caption, cite, code, dd, dl, mark, option, pre, time, del, .MuiTypography-p, .MuiTypography-root, .MuiDataGrid-cellContent, .MuiTabPanel-root {
+    color: var(--darkBodyTextColor);
+  }
+
+  .whiteColor {
+    color: #fff;
+    .MuiChip-label  {
+      color: #fff !important;
+    }
+  }
+
+  .primary {
+    color: var(--primaryColor);
+  }
+  .secondary {
+    color: var(--secondaryColor);
+  }
+  .success {
+    color: var(--successColor);
+  }
+  .info {
+    color: var(--infoColor);
+  }
+  .warning {
+    color: var(--warningColor);
+  }
+  .danger {
+    color: var(--dangerColor);
+  }
+ 
+  .Mui-disabled.MuiIconButton-root {
+    color: #5d5e5e;
+  }
+
+  .MuiCard-root {
+    background-color: var(--cardBg);
+  }
+
+  .MuiPopover-paper {
+    background-color: var(--bodyBg);
+    &:before {
+      background-color: var(--bodyBg);
+    }
+  }
+
+  .card-dark-bg {
+    background-color: var(--cardBg);
+  }
+  .dark-BG-101010 {
+    background-color: #101010;
+  }
+  .bg-black {
+    background-color: var(--colorBlack) !important;
+  }
+  .dark-text-white {
+    color: #fff !important;
+  }
+
+  .MuiDialog-root {
+    .MuiDialog-container {
+      .MuiPaper-root {
+        background-color: #101010;
+      }
+    }
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #464545;
+  }
+  .with-icons-input {
+    .MuiInput-underline {
+      &::before {
+        border-bottom: 1px solid #464545;
+      }
+    }
+  }
+
+  .modal-close {
+    color: var(--darkBodyTextColor);
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .select {
+    svg {
+      color: #fff;
+    }
+  }
+
+  .dark-textarea {
+    background-color: var(--colorBlack) !important;
+    color: var(--darkBodyTextColor) !important;
+    border: 1px solid var(--borderColor) !important;
+  }
+
+  .MuiBadge-badge {
+    color: #fff;
+  }
+
+  .for-dark-border {
+    border: 1px solid var(--borderColor);
+  }
+
+  .MuiRating-iconEmpty {
+    color: rgb(140 140 140 / 26%);
+    svg {
+      color: rgb(140 140 140 / 26%) !important;
+    }
+  }
+
+  .MuiFormControl-root {
+    .MuiFormLabel-root  {
+      color: var(--darkBodyTextColor);
+    }
+  }
+
+  .MuiChip-root {
+    .MuiChip-label {
+      color: var(--darkBodyTextColor);
+    }
+  }
+
+  .MuiListItemIcon-root {
+    color: var(--darkHeadingTextColor);
+  }
+  .MuiDivider-root  {
+    border-color: rgb(255 255 255 / 12%);
+  }
+
+  .MuiDialogContent-dividers {
+    border-top: 1px solid var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
+  }
+
+  // top-navbar
+  .top-navbar-for-dark {
+    background-color: var(--cardBg);
+    box-shadow: none;
+    .ri-align-left {
+      color: var(--darkHeadingTextColor);
+    }
+  }
+  .dark-menu {
+    background-color: var(--cardBg);
+  }
+  .search-form, .ls-search-form {
+    input {
+      background-color: var(--colorBlack);
+      color: var(--darkHeadingTextColor);
+    }
+  }
+  .for-dark-email, .for-dark-notification {
+    &:hover {
+      background-color: #f5f5f5;
+    }
+  }
+ 
+  // LeftSidebarNav
+  .LeftSidebarNav {
+    background-color: var(--cardBg);
+    box-shadow: none;
+  }
+  .black-logo {
+    display: none;
+  }
+  .white-logo {
+    display: inline-block;
+  }
+  .sidebarLinkActive {
+    color: var(--darkHeadingTextColor);
+ 
+    span {
+      color: var(--darkHeadingTextColor);
+    }
+
+    svg {
+      fill: var(--darkHeadingTextColor);
+    }
+  }
+
+  // for-dark-title
+  .for-dark-bottom-border {
+    border-bottom: 1px solid var(--borderColor);
+  }
+  .dark-border {
+    border: 1px solid var(--borderColor);
+  }
+
+  // apexcharts-legend-text
+  .apexcharts-legend-text {
+    color: var(--darkBodyTextColor) !important;
+  }
+  .apexcharts-tooltip.apexcharts-theme-light, .apexcharts-theme-dark {
+    border: 1px solid #373a40;
+    background-color: var(--cardBg);
+ 
+    .apexcharts-tooltip-title {
+      background: var(--cardBg);
+      border-bottom: 1px solid #373a40;
+      color: var(--darkHeadingTextColor);
+    }
+    .apexcharts-tooltip-text-y-label, .apexcharts-tooltip-text-y-value {
+      color: var(--darkHeadingTextColor);
+    }
+  }
+  .apexcharts-text {
+    fill: #fff;
+  }
+  .apexcharts-yaxis, .apexcharts-xaxis {
+    .apexcharts-text {
+      fill: var(--darkBodyTextColor);
+    }
+  }
+  .apexcharts-title-text {
+    fill: var(--darkHeadingTextColor);
+  }
+  .apexcharts-graphical {
+    .apexcharts-grid {
+      .apexcharts-grid-row {
+        fill: #1a1717;
+      }
+    } 
+  }
+  
+  .apexcharts-grid-borders {
+    line {
+      stroke: #424242;
+    }
+  }
+  .apexcharts-gridline {
+    stroke: #424242;
+  }
+
+  // Recharts
+  .recharts-text {
+    fill: var(--darkBodyTextColor);
+  }
+  .recharts-cartesian-grid {
+    .recharts-cartesian-grid-horizontal, .recharts-cartesian-grid-vertical {
+      line {
+        stroke: #424242;
+      }
+    }
+  }
+  .recharts-xAxis, .recharts-yAxis {
+    line {
+      stroke: #424242;
+    }
+  }
+ 
+  .for-dark-impressions {
+    background-color: var(--cardBg);
+  }
+
+  // dark-table
+  .dark-table {
+    thead {
+      background-color: var(--colorBlack);
+      tr {
+        th {
+          border-bottom: 1px solid var(--borderColor) !important;
+          color: var(--darkHeadingTextColor);
+        }
+      }
+    }
+    tbody, tfoot {
+      background-color: var(--bodyBg);
+      tr {
+        td, th {
+          border-bottom: 1px solid var(--borderColor) !important;
+        }
+      }
+    }
+  }
+
+  .dark-data-table {
+    border: 1px solid var(--borderColor);
+    .MuiDataGrid-columnHeaders {
+      border-bottom: 1px solid var(--borderColor);
+    }
+    .MuiDataGrid-row {
+      .MuiDataGrid-cell {
+        border-bottom: 1px solid var(--borderColor);
+      }
+    }
+    .MuiDataGrid-footerContainer {
+      border-top: 1px solid var(--borderColor);
+    }
+  }
+ 
+  .ss-table-toolbar, .ss-table-table-pagination {
+    background-color: #1a1a1a;
+  }
+ 
+
+  // date-time-picker
+  .MuiClock-root {
+    .MuiButtonBase-root {
+      span {
+        color: #fff !important;
+      }
+    }
+  }
+  
+  .mantine-1qycoz3 {
+    background-color: var(--colorBlack); 
+    border: 1px solid #464545;
+    .mantine-bdajhj {
+      background-color: #000;
+      border-bottom: 1px solid #464545;
+    }
+  }
+
+  .for-dark-text-white {
+    color: #fff !important;
+    span {
+      color: #fff !important;
+    }
+  }
+
+  // MuiAccordion-root
+  .accordion-customization, .controlled-accordion {
+    border-top: 1px solid var(--borderColor);
+    border-left: 1px solid var(--borderColor);
+    border-right: 1px solid var(--borderColor);
+
+    .MuiAccordionDetails-root {
+      border-top: 1px solid var(--borderColor);
+    }
+
+    .MuiButtonBase-root {
+      .MuiAccordionSummary-expandIconWrapper {
+        svg {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  // mobile-stepper
+  .mobile-stepper {
+    .Mui-disabled {
+      color: rgb(255 255 255 / 26%);
+    }
+  }
+
+  .MuiTabs-vertical {
+    border-color: rgb(255 255 255 / 12%);
+  }
+
+  .readEmail:hover {
+    color: var(--darkHeadingTextColor);
+  }
+
+  .igc-box {
+    background-color: var(--cardBg);
+  }
+
+  .team-card-dark {
+    background-color: #000000; 
+  }
+ 
+  // footer
+  .footer {
+    background-color: var(--cardBg);
+  }
+}
+
+[class="leftSidebarDark dark"] .sidebarLinkActive span {
+  color: #f3f3f3;
+}

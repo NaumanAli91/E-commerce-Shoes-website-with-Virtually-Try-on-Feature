@@ -1,0 +1,290 @@
+:root {
+  --darkBodyTextColor: #828690;
+  --darkHeadingTextColor: #ced4da;
+  --bodyBg: #0d1015;
+  --cardBg: #14171c;
+  --colorBlack: #000000;
+  --borderColor: #1f2226;
+  --whiteColor: #0d1015;
+}
+
+.dark {
+  background-color: var(--bodyBg) !important;
+}
+.dark body {
+  background-color: var(--bodyBg) !important;
+  color: var(--darkBodyTextColor) !important;
+}
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: var(--darkHeadingTextColor) !important;
+}
+.dark ::-moz-placeholder {
+  color: var(--darkBodyTextColor);
+}
+.dark button, .dark a, .dark p, .dark q, .dark tspan, .dark li, .dark tbody, .dark tfoot, .dark thead, .dark th, .dark td, .dark canvas, .dark ::placeholder, .dark abbr, .dark address, .dark blockquote, .dark caption, .dark cite, .dark code, .dark dd, .dark dl, .dark mark, .dark option, .dark pre, .dark time, .dark del, .dark .MuiTypography-p, .dark .MuiTypography-root, .dark .MuiDataGrid-cellContent, .dark .MuiTabPanel-root {
+  color: var(--darkBodyTextColor);
+}
+.dark .whiteColor {
+  color: #fff;
+}
+.dark .whiteColor .MuiChip-label {
+  color: #fff !important;
+}
+.dark .primary {
+  color: var(--primaryColor);
+}
+.dark .secondary {
+  color: var(--secondaryColor);
+}
+.dark .success {
+  color: var(--successColor);
+}
+.dark .info {
+  color: var(--infoColor);
+}
+.dark .warning {
+  color: var(--warningColor);
+}
+.dark .danger {
+  color: var(--dangerColor);
+}
+.dark .Mui-disabled.MuiIconButton-root {
+  color: #5d5e5e;
+}
+.dark .MuiCard-root {
+  background-color: var(--cardBg);
+}
+.dark .MuiPopover-paper {
+  background-color: var(--bodyBg);
+}
+.dark .MuiPopover-paper:before {
+  background-color: var(--bodyBg);
+}
+.dark .card-dark-bg {
+  background-color: var(--cardBg);
+}
+.dark .dark-BG-101010 {
+  background-color: #101010;
+}
+.dark .bg-black {
+  background-color: var(--colorBlack) !important;
+}
+.dark .dark-text-white {
+  color: #fff !important;
+}
+.dark .MuiDialog-root .MuiDialog-container .MuiPaper-root {
+  background-color: #101010;
+}
+.dark .MuiOutlinedInput-notchedOutline {
+  border-color: #464545;
+}
+.dark .with-icons-input .MuiInput-underline::before {
+  border-bottom: 1px solid #464545;
+}
+.dark .modal-close {
+  color: var(--darkBodyTextColor);
+}
+.dark .modal-close:hover {
+  color: #fff;
+}
+.dark .select svg {
+  color: #fff;
+}
+.dark .dark-textarea {
+  background-color: var(--colorBlack) !important;
+  color: var(--darkBodyTextColor) !important;
+  border: 1px solid var(--borderColor) !important;
+}
+.dark .MuiBadge-badge {
+  color: #fff;
+}
+.dark .for-dark-border {
+  border: 1px solid var(--borderColor);
+}
+.dark .MuiRating-iconEmpty {
+  color: rgba(140, 140, 140, 0.26);
+}
+.dark .MuiRating-iconEmpty svg {
+  color: rgba(140, 140, 140, 0.26) !important;
+}
+.dark .MuiFormControl-root .MuiFormLabel-root {
+  color: var(--darkBodyTextColor);
+}
+.dark .MuiChip-root .MuiChip-label {
+  color: var(--darkBodyTextColor);
+}
+.dark .MuiListItemIcon-root {
+  color: var(--darkHeadingTextColor);
+}
+.dark .MuiDivider-root {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+.dark .MuiDialogContent-dividers {
+  border-top: 1px solid var(--borderColor);
+  border-bottom: 1px solid var(--borderColor);
+}
+.dark .top-navbar-for-dark {
+  background-color: var(--cardBg);
+  box-shadow: none;
+}
+.dark .top-navbar-for-dark .ri-align-left {
+  color: var(--darkHeadingTextColor);
+}
+.dark .dark-menu {
+  background-color: var(--cardBg);
+}
+.dark .search-form input, .dark .ls-search-form input {
+  background-color: var(--colorBlack);
+  color: var(--darkHeadingTextColor);
+}
+.dark .for-dark-email:hover, .dark .for-dark-notification:hover {
+  background-color: #f5f5f5;
+}
+.dark .LeftSidebarNav {
+  background-color: var(--cardBg);
+  box-shadow: none;
+}
+.dark .black-logo {
+  display: none;
+}
+.dark .white-logo {
+  display: inline-block;
+}
+.dark .sidebarLinkActive {
+  color: var(--darkHeadingTextColor);
+}
+.dark .sidebarLinkActive span {
+  color: var(--darkHeadingTextColor);
+}
+.dark .sidebarLinkActive svg {
+  fill: var(--darkHeadingTextColor);
+}
+.dark .for-dark-bottom-border {
+  border-bottom: 1px solid var(--borderColor);
+}
+.dark .dark-border {
+  border: 1px solid var(--borderColor);
+}
+.dark .apexcharts-legend-text {
+  color: var(--darkBodyTextColor) !important;
+}
+.dark .apexcharts-tooltip.apexcharts-theme-light, .dark .apexcharts-theme-dark {
+  border: 1px solid #373a40;
+  background-color: var(--cardBg);
+}
+.dark .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title, .dark .apexcharts-theme-dark .apexcharts-tooltip-title {
+  background: var(--cardBg);
+  border-bottom: 1px solid #373a40;
+  color: var(--darkHeadingTextColor);
+}
+.dark .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-text-y-label, .dark .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-text-y-value, .dark .apexcharts-theme-dark .apexcharts-tooltip-text-y-label, .dark .apexcharts-theme-dark .apexcharts-tooltip-text-y-value {
+  color: var(--darkHeadingTextColor);
+}
+.dark .apexcharts-text {
+  fill: #fff;
+}
+.dark .apexcharts-yaxis .apexcharts-text, .dark .apexcharts-xaxis .apexcharts-text {
+  fill: var(--darkBodyTextColor);
+}
+.dark .apexcharts-title-text {
+  fill: var(--darkHeadingTextColor);
+}
+.dark .apexcharts-graphical .apexcharts-grid .apexcharts-grid-row {
+  fill: #1a1717;
+}
+.dark .apexcharts-grid-borders line {
+  stroke: #424242;
+}
+.dark .apexcharts-gridline {
+  stroke: #424242;
+}
+.dark .recharts-text {
+  fill: var(--darkBodyTextColor);
+}
+.dark .recharts-cartesian-grid .recharts-cartesian-grid-horizontal line, .dark .recharts-cartesian-grid .recharts-cartesian-grid-vertical line {
+  stroke: #424242;
+}
+.dark .recharts-xAxis line, .dark .recharts-yAxis line {
+  stroke: #424242;
+}
+.dark .for-dark-impressions {
+  background-color: var(--cardBg);
+}
+.dark .dark-table thead {
+  background-color: var(--colorBlack);
+}
+.dark .dark-table thead tr th {
+  border-bottom: 1px solid var(--borderColor) !important;
+  color: var(--darkHeadingTextColor);
+}
+.dark .dark-table tbody, .dark .dark-table tfoot {
+  background-color: var(--bodyBg);
+}
+.dark .dark-table tbody tr td, .dark .dark-table tbody tr th, .dark .dark-table tfoot tr td, .dark .dark-table tfoot tr th {
+  border-bottom: 1px solid var(--borderColor) !important;
+}
+.dark .dark-data-table {
+  border: 1px solid var(--borderColor);
+}
+.dark .dark-data-table .MuiDataGrid-columnHeaders {
+  border-bottom: 1px solid var(--borderColor);
+}
+.dark .dark-data-table .MuiDataGrid-row .MuiDataGrid-cell {
+  border-bottom: 1px solid var(--borderColor);
+}
+.dark .dark-data-table .MuiDataGrid-footerContainer {
+  border-top: 1px solid var(--borderColor);
+}
+.dark .ss-table-toolbar, .dark .ss-table-table-pagination {
+  background-color: #1a1a1a;
+}
+.dark .MuiClock-root .MuiButtonBase-root span {
+  color: #fff !important;
+}
+.dark .mantine-1qycoz3 {
+  background-color: var(--colorBlack);
+  border: 1px solid #464545;
+}
+.dark .mantine-1qycoz3 .mantine-bdajhj {
+  background-color: #000;
+  border-bottom: 1px solid #464545;
+}
+.dark .for-dark-text-white {
+  color: #fff !important;
+}
+.dark .for-dark-text-white span {
+  color: #fff !important;
+}
+.dark .accordion-customization, .dark .controlled-accordion {
+  border-top: 1px solid var(--borderColor);
+  border-left: 1px solid var(--borderColor);
+  border-right: 1px solid var(--borderColor);
+}
+.dark .accordion-customization .MuiAccordionDetails-root, .dark .controlled-accordion .MuiAccordionDetails-root {
+  border-top: 1px solid var(--borderColor);
+}
+.dark .accordion-customization .MuiButtonBase-root .MuiAccordionSummary-expandIconWrapper svg, .dark .controlled-accordion .MuiButtonBase-root .MuiAccordionSummary-expandIconWrapper svg {
+  color: #fff;
+}
+.dark .mobile-stepper .Mui-disabled {
+  color: rgba(255, 255, 255, 0.26);
+}
+.dark .MuiTabs-vertical {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+.dark .readEmail:hover {
+  color: var(--darkHeadingTextColor);
+}
+.dark .igc-box {
+  background-color: var(--cardBg);
+}
+.dark .team-card-dark {
+  background-color: #000000;
+}
+.dark .footer {
+  background-color: var(--cardBg);
+}
+
+[class="leftSidebarDark dark"] .sidebarLinkActive span {
+  color: #f3f3f3;
+}/*# sourceMappingURL=dark.css.map */

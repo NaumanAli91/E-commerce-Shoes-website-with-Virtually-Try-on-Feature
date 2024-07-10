@@ -1,0 +1,49 @@
+/* ScrollingText.module.css */
+
+.scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  
+  }
+  
+  .scrolling-text {
+   
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 150px;
+    text-align: center;
+    background-color: #FEE715;
+    font-weight: bold;
+    font-size: 32px;
+    color: #101820;
+    animation: blinkAnimation 1s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
+  .applyFiltersButton{
+    margin-top: 20px !important; /* Add some space between text and button */
+    text-align: center !important;
+    margin-left: 50px !important;
+    justify-content: center !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    background-color: #101820 !important;
+    font-size: 25px !important;
+    border-radius: 1px;
+  }
+  @media (max-width: 600px) {
+    /* Adjust styles for smaller screens, you can customize this breakpoint as needed */
+    .scrolling-text {
+      font-size: 15px;
+       /* Adjust font size for smaller screens */
+    }
+    .applyFiltersButton {
+        margin-left: 0 !important;
+        font-size: 15px !important; /* Remove left margin for smaller screens */
+      }
+  }
+  
+
+

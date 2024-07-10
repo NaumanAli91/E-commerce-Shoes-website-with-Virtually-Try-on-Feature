@@ -1,0 +1,128 @@
+.chat-tabs .react-tabs__tab-list {
+  border: none;
+  margin: 0;
+  height: 648px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.chat-tabs .react-tabs__tab-list .react-tabs__tab {
+  display: block;
+  padding: 5px 0;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #F7FAFF;
+}
+.chat-tabs .react-tabs__tab-list .react-tabs__tab:focus, .chat-tabs .react-tabs__tab-list .react-tabs__tab:focus-visible {
+  outline: 0;
+}
+.chat-tabs .react-tabs__tab-list .react-tabs__tab:focus:after, .chat-tabs .react-tabs__tab-list .react-tabs__tab:focus-visible:after {
+  background: transparent;
+}
+.chat-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected {
+  background-color: #fdfdfd;
+  color: #A9A9C8;
+}
+
+.active-status {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  bottom: 4px;
+  right: 3px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+.active-status2 {
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  position: relative;
+  top: 1px;
+}
+
+.left-replay-box {
+  position: relative;
+}
+
+.left-replay-box .hover-caption {
+  background: #fff;
+  box-shadow: 0px 10px 35px rgba(50, 110, 189, 0.2);
+  border-radius: 10px;
+  visibility: hidden;
+  transition: 0.6s;
+  position: absolute;
+  left: 0;
+  top: 30px;
+}
+
+.left-replay-box:hover .hover-caption {
+  visibility: visible;
+}
+
+.right-replay-box {
+  position: relative;
+}
+
+.right-replay-box .hover-caption {
+  background: #fff;
+  box-shadow: 0px 10px 35px rgba(50, 110, 189, 0.2);
+  border-radius: 10px;
+  visibility: hidden;
+  transition: 0.6s;
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+.right-replay-box:hover .hover-caption {
+  visibility: visible;
+}
+
+.chat-list-box {
+  padding: 15px;
+  height: 585px;
+  overflow: auto;
+}
+
+[dir=rtl] .chat-tabs .react-tabs__tab-list {
+  padding-right: 0;
+  padding-left: 10px;
+}
+[dir=rtl] .active-status {
+  right: 0;
+  left: 3px;
+}
+[dir=rtl] .left-replay-box .hover-caption {
+  left: auto;
+  right: 0;
+}
+[dir=rtl] .right-replay-box .hover-caption {
+  right: auto;
+  left: 0;
+}
+
+/* For dark mode */
+[class=dark] .chat-tabs .react-tabs__tab-list .react-tabs__tab {
+  border-bottom: 1px solid var(--borderColor);
+}
+[class=dark] .chat-tabs .react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected {
+  background-color: var(--colorBlack);
+  color: #A9A9C8;
+}
+[class=dark] .chat-tabs .for-dark-text-white span {
+  color: #fff !important;
+}
+[class=dark] .chat-tabs .for-dark-chat-box {
+  border: 1px solid var(--borderColor);
+}
+[class=dark] .chat-tabs .for-dark-chat-header {
+  border-bottom: 1px solid var(--borderColor);
+}
+[class=dark] .chat-tabs .for-dark-button {
+  background: #000;
+}/*# sourceMappingURL=chat.css.map */

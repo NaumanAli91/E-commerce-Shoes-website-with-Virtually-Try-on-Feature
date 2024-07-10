@@ -1,0 +1,34 @@
+.priceList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.priceList li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+}
+.priceList li:last-child {
+  margin-bottom: 0;
+}
+.priceList li i {
+  background-color: rgba(117, 127, 239, 0.1);
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+/* For RTL Style */
+[dir="rtl"] .priceList li {
+  padding-left: 0;
+  padding-right: 30px;
+}
+[dir="rtl"] .priceList li i {
+  left: auto;
+  right: 0;
+}

@@ -1,0 +1,14 @@
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .review-card {
+    width: calc(33.33% - 20px); /* Adjust the width as per your requirement */
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Add additional styling as needed */
+  
